@@ -1,0 +1,24 @@
+name: task_manager
+description: A simple task manager app using Hive
+
+publish_to: 'none' # Remove this line if you are planning to publish it
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.0.5        # Hive dependency for local storage
+  hive_flutter: ^1.1.0 # Hive Flutter package to integrate with Flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.1  # Optional: Hive code generation
+  build_runner: ^2.1.7    # Optional: For code generation of Hive models
+
+flutter:
+  uses-material-design: true
